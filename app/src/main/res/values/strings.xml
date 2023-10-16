@@ -3,4 +3,9 @@
     <string name="title_home">Pairing</string>
     <string name="title_dashboard">Live Data</string>
     <string name="title_notifications">Recording &amp; Analysis</string>
+    <string name="Recording_Button">Recording</string>
+    <string name="Analysis_Button">Analysis</string>
+    <string name="Upload_Button">Upload</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
