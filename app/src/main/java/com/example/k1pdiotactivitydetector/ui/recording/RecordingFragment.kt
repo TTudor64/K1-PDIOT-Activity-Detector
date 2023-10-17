@@ -36,6 +36,14 @@ class RecordingFragment : Fragment() {
             findNavController().navigate(R.id.action_to_upload)
         }
 
+        root.findViewById<Button>(R.id.button4).setOnClickListener {
+            findNavController().navigate(R.id.action_navigation_notifications_to_recordDataFragment)
+        }
+
+        root.findViewById<Button>(R.id.button5).setOnClickListener {
+            findNavController().navigate(R.id.action_navigation_notifications_to_analysisFragment)
+        }
+
         return root
     }
 

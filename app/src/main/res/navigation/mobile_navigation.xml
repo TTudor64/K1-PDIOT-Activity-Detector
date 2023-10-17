@@ -26,6 +26,12 @@
         <action
             android:id="@+id/action_to_upload"
             app:destination="@id/navigation_upload" />
+        <action
+            android:id="@+id/action_navigation_notifications_to_analysisFragment"
+            app:destination="@id/analysisFragment" />
+        <action
+            android:id="@+id/action_navigation_notifications_to_recordDataFragment"
+            app:destination="@id/recordDataFragment" />
     </fragment>
 
     <fragment
@@ -35,6 +41,24 @@
         tools:layout="@layout/fragment_upload2" >
         <action
             android:id="@+id/action_navigation_upload_to_navigation_notifications"
+            app:destination="@id/navigation_notifications" />
+    </fragment>
+    <fragment
+        android:id="@+id/analysisFragment"
+        android:name="com.example.k1pdiotactivitydetector.ui.analysis.AnalysisFragment"
+        android:label="fragment_analysis"
+        tools:layout="@layout/fragment_analysis" >
+        <action
+            android:id="@+id/action_analysisFragment_to_navigation_notifications"
+            app:destination="@id/navigation_notifications" />
+    </fragment>
+    <fragment
+        android:id="@+id/recordDataFragment"
+        android:name="com.example.k1pdiotactivitydetector.ui.recording.RecordDataFragment"
+        android:label="fragment_record_data"
+        tools:layout="@layout/fragment_record_data" >
+        <action
+            android:id="@+id/action_recordDataFragment_to_navigation_notifications"
             app:destination="@id/navigation_notifications" />
     </fragment>
 </navigation>
