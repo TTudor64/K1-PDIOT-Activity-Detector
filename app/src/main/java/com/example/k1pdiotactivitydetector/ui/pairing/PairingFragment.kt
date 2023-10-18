@@ -1,4 +1,4 @@
-package com.example.k1pdiotactivitydetector.ui.home
+package com.example.k1pdiotactivitydetector.ui.pairing
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,7 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.example.k1pdiotactivitydetector.databinding.FragmentHomeBinding
 
-class HomeFragment : Fragment() {
+class PairingFragment : Fragment() {
 
     private var _binding: FragmentHomeBinding? = null
 

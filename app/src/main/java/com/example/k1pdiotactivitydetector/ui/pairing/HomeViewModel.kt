@@ -1,4 +1,4 @@
-package com.example.k1pdiotactivitydetector.ui.home
+package com.example.k1pdiotactivitydetector.ui.pairing
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
